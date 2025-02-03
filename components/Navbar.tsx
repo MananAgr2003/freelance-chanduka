@@ -6,12 +6,12 @@ export default function Navbar() {
 
     return (
         <nav className="z-20 w-full absolute top-0 flex justify-between bg-transparent md:px-24 px-4 py-4">
-            <div className="flex w-full justify-center">
+            <div className="flex w-full md:w-1/3 justify-center">
                 <img src="/images/logo.png" alt="Company Logo" className="md:w-[250px] w-48 w-full" />
             </div>
 
-            <div>
-                <ul className="hidden list-none md:flex items-center gap-3 text-white">
+            <div className="flex-1">
+                <ul className="hidden list-none md:flex justify-end items-center gap-3 text-white">
                     <li className={listStyle}>Home</li>
                     <li className={listStyle}>Our Products</li>
                     <li className={listStyle}>About us</li>
