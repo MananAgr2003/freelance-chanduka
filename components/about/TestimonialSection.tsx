@@ -44,7 +44,7 @@ export default function TestimonialSection() {
           className="w-full h-full"
         />
 
-      <div className="absolute bg-bgDark pl-16 px-8 pt-24 md:w-1/2 md:h-[550px] -bottom-10">
+      <div className="absolute bg-bgDark md:pl-16 py-8 md:py-8 px-8 md:pt-24 md:w-1/2 md:h-[550px] -bottom-10">
         <h4 className="text-sm font-semibold text-white">TESTIMONIALS</h4>
         <h2 className="text-4xl font-bold mt-2">What people say</h2>
         <p className="mt-4 text-lg text-neutral-300 flex gap-3 md:h-[150px]">

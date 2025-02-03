@@ -49,7 +49,7 @@ export default function ServiceSection() {
           </div>
 
           {/* Services Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-12">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-12">
             {services.map((service, index) => (
               <div key={index} className="text-left">
                 <div className="flex justify-left mb-4">
@@ -72,10 +72,10 @@ export default function ServiceSection() {
       </section>
 
       <section className="py-16 px-8 bg-neutral-100 text-gray-900">
-        <div className="md:w-[1100px] mx-auto flex flex-col md:flex-row gap-12 md:gap-0 items-start">
+        <div className="md:w-[1100px] mx-auto flex flex-col-reverse md:flex-row gap-12 md:gap-0 items-start">
           {/* Left Side - Image Content */}
           <div className="md:w-1/2">
-            <div className="relative w-3/4">
+            <div className="relative md:w-3/4 w-full">
               <img
                 src="/images/women-foundry.png"
                 alt="Foundry"
@@ -91,7 +91,7 @@ export default function ServiceSection() {
           </div>
 
           {/* Right Side - Text content */}
-          <div className="md:w-1/2 flex flex-col justify-between md:h-[750px]">
+          <div className="md:w-1/2 flex flex-col-reverse gap-8 md:gap-0 justify-between md:h-[750px]">
             <div>
               <h3 className="text-sm font-semibold text-gray-500 uppercase">
                 Professional Approach
@@ -109,7 +109,7 @@ export default function ServiceSection() {
               <img
                 src="/images/steel-coils.png"
                 alt="Steel Coils"
-                className="md:w-full object-cover rounded-none"
+                className="md:w-full object-cover rounded-lg md:rounded-none"
               />
             </div>
           </div>

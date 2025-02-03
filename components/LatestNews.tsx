@@ -26,7 +26,7 @@ export default function LatestNews() {
   ];
 
   return (
-    <section className="text-white md:w-[1100px] mx-auto py-12 px-6">
+    <section className="text-white md:w-[1100px] mx-auto py-12 md:px-6 px-4">
       <div className="text-center mb-8">
         <p className="text-sm text-black uppercase">From Our Blog</p>
         <h2 className="text-3xl font-bold text-neutral-700">Our latest news</h2>

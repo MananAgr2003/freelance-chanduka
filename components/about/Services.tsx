@@ -22,15 +22,15 @@ export default function AboutServices() {
 
   return (
     <section className="bg-bgSecondary min-h-screen">
-      <div className="md:w-[1100px] md:h-[600px] mx-auto relative">
+      <div className="md:w-[1100px] md:h-[600px] h-[150px] mx-auto relative">
         <img
           src="/images/about-video.png"
           alt="About video"
-          className="w-full absolute -top-20"
+          className="w-full px-6 md:p-0 absolute -top-20"
         />
       </div>
 
-      <div className="md:w-[1100px] mx-auto mt-12 pb-32">
+      <div className="md:w-[1100px] mx-auto mt-12 pb-32 px-4 md:px-0">
         {/* Title Section */}
         <div className="w-full flex md:flex-row flex-col gap-10">
           <div>
@@ -56,7 +56,7 @@ export default function AboutServices() {
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-12">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-12">
           {services.map((service, index) => (
             <div key={index} className="text-left">
               <div className="flex justify-left mb-4">

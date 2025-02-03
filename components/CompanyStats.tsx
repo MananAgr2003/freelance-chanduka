@@ -21,13 +21,13 @@ export default function CompanyStats() {
   ];
 
   return (
-    <section className="bg-bgPrimary p-12 mb-10">
-      <div className="md:w-[1100px] mx-auto flex flex-wrap">
+    <section className="bg-bgPrimary md:p-12 px-4 py-8 mb-10">
+      <div className="md:w-[1100px] mx-auto flex justify-center gap-8 md:gap-0 flex-wrap">
         {stats.map((stat, index) => (
           <div
             key={index}
-            className={`flex flex-col items-center text-white w-1/2 md:w-1/4 ${
-              index !== stats.length - 1 ? "border-r" : ""
+            className={`flex flex-col items-center text-white border-b md:border-b-0 w-1/3 md:w-1/4 ${
+              index !== stats.length - 1 ? "md:border-r" : ""
             }`}
           >
             <h1 className="text-5xl">{stat.value}</h1>
