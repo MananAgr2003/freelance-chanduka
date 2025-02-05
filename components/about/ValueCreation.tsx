@@ -10,12 +10,10 @@ export default function ValueCreation() {
               alt="Value Creation"
               className="w-full object-cover"
             />
-            {/* <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-end items-center p-4 text-white ">
-              <h3 className="text-lg font-semibold">Foundry</h3>
-              <button className="text-bgPrimary font-semibold bg-white px-4 py-2 mt-2">
-                Check Out Products
-              </button>
-            </div> */}
+            <div className="absolute top-0 right-2 md:right-10 flex flex-col justify-end p-4 text-bgPrimary">
+              <h3 className="lg:text-8xl md:text-7xl text-5xl font-semibold">1995</h3>
+              <p className="text-right">START IN</p>
+            </div>
           </div>
         </div>
 

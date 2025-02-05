@@ -1,4 +1,4 @@
-import Header from "@/components/about/Header"
+import Header from "@/components/Header"
 import ValueCreation from "@/components/about/ValueCreation"
 import AboutServices from "@/components/about/Services"
 import ProductionSolutions from "@/components/about/ProductSolutions"
@@ -11,7 +11,7 @@ export default function AboutPage() {
 
     return (
         <main>
-            <Header />
+            <Header title="About us" />
 
             <ValueCreation />
 
