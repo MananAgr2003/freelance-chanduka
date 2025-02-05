@@ -23,9 +23,9 @@ export default function ServiceSection() {
   return (
     <>
       <section className="py-48 px-8 md:pt-64 bg-white text-gray-900">
-        <div className="md:w-[1100px] mx-auto">
+        <div className="lg:w-[1100px] mx-auto">
           {/* Title Section */}
-          <div className="w-full flex md:flex-row flex-col gap-10">
+          <div className="w-full flex lg:flex-row flex-col gap-10">
             <div>
               <h3 className="text-sm font-semibold text-gray-500 uppercase">
                 What We Offer
@@ -49,7 +49,7 @@ export default function ServiceSection() {
           </div>
 
           {/* Services Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-12">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
             {services.map((service, index) => (
               <div key={index} className="text-left">
                 <div className="flex justify-left mb-4">
@@ -72,7 +72,7 @@ export default function ServiceSection() {
       </section>
 
       <section className="py-16 px-8 bg-neutral-100 text-gray-900">
-        <div className="md:w-[1100px] mx-auto flex flex-col-reverse md:flex-row gap-12 md:gap-0 items-start">
+        <div className="lg:w-[1100px] mx-auto flex flex-col-reverse md:flex-row gap-12 md:gap-0 items-start">
           {/* Left Side - Image Content */}
           <div className="md:w-1/2">
             <div className="relative md:w-3/4 w-full">

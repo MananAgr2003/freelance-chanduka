@@ -1,7 +1,7 @@
 export default function ProductionSolutions() {
   return (
     <section className="px-10 py-16">
-      <div className="md:w-[1100px] mx-auto flex flex-col md:flex-row items-center">
+      <div className="lg:w-[1100px] mx-auto flex flex-col md:flex-row items-center">
       <div className="md:w-1/2">
         <h4 className="text-sm font-semibold text-indigo-400">QUALITY WORK</h4>
         <h2 className="text-4xl font-bold mt-2">

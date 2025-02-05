@@ -22,7 +22,7 @@ export default function CompanyStats() {
 
   return (
     <section className="bg-bgPrimary md:p-12 px-4 py-8 mb-10">
-      <div className="md:w-[1100px] mx-auto flex justify-center gap-8 md:gap-0 flex-wrap">
+      <div className="lg:w-[1100px] mx-auto flex justify-center gap-8 md:gap-0 flex-wrap">
         {stats.map((stat, index) => (
           <div
             key={index}

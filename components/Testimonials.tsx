@@ -56,7 +56,7 @@ export default function Testimonials() {
   return (
     <>
       <section className="bg-bgPrimary md:p-12 px-4 pt-8">
-        <div className="md:w-[1100px] mx-auto">
+        <div className="lg:w-[1100px] mx-auto">
           <div className="text-white mb-5">
             <h4 className="uppercase text-sm tracking-wide">Testimonials</h4>
             <h2 className="text-4xl font-bold mt-2 md:w-[450px]">
@@ -71,7 +71,7 @@ export default function Testimonials() {
                   return (
                     <div
                       key={`testimial-${index}`}
-                      className={`flex flex-col items-start gap-2 ${
+                      className={`flex flex-col items-center gap-2 ${
                         index === currentTestimonial
                           ? "opacity-100 md:w-[120px]"
                           : "opacity-50 md:w-[120px]"
@@ -118,14 +118,14 @@ export default function Testimonials() {
         </div>
       </section>
       <section className="bg-bgSecondary md:h-[180px] mb-48">
-        <div className="md:w-[1100px] mx-auto flex flex-wrap items-start justify-center h-full">
+        <div className="lg:w-[1100px] mx-auto grid grid-cols-2 md:grid-cols-4 items-start justify-center h-full">
           {imageSrcs.map((src, index) => {
             return (
               <img
                 key={`test-img-${index}`}
                 src={src}
                 // alt="Testimonial"
-                className="w-1/2 md:w-1/4 md:mx-2"
+                className="w-full md:mx-2"
               />
             );
           })}

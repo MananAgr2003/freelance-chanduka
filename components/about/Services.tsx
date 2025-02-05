@@ -21,8 +21,8 @@ export default function AboutServices() {
   ];
 
   return (
-    <section className="bg-bgSecondary min-h-screen">
-      <div className="md:w-[1100px] md:h-[600px] h-[150px] mx-auto relative">
+    <section className="bg-bgSecondary lg:min-h-screen">
+      <div className="lg:w-[1100px] lg:h-[600px] md:h-[500px] h-[150px] mx-auto relative">
         <img
           src="/images/about-video.png"
           alt="About video"
@@ -30,7 +30,7 @@ export default function AboutServices() {
         />
       </div>
 
-      <div className="md:w-[1100px] mx-auto mt-12 pb-32 px-4 md:px-0">
+      <div className="lg:w-[1100px] mx-auto mt-12 pb-32 px-4 lg:px-0">
         {/* Title Section */}
         <div className="w-full flex md:flex-row flex-col gap-10">
           <div>

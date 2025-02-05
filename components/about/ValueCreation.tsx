@@ -1,7 +1,7 @@
 export default function ValueCreation() {
   return (
     <section className="py-16 px-8 pb-64 bg-neutral-100 text-gray-900">
-      <div className="md:w-[1100px] mx-auto flex flex-col md:flex-row gap-12 items-center">
+      <div className="lg:w-[1100px] mx-auto flex flex-col md:flex-row gap-12 items-center">
         {/* Left Side - Image Content */}
         <div className="md:w-1/2">
           <div className="relative w-full">
